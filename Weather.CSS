@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(16, 108, 212);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+ .heading{
+  animation: colorChange 2s infinite alternate;
+ }
+ @keyframes colorChange {
+  0% {color: #26fcd8;}
+  100% {color: #0b0feb;}
+ }
+ .weather-container {
+  background: rgb(41, 109, 236);
+  padding: 30px;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 0 15px rgb(104, 103, 103);
+} 
+  .weather-container h1 {
+    margin: 0 0 10px;
+    font-size: 28px;
+    
+  }
+  .weather-container p {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  .input-weather {
+    margin-bottom: 15px;
+  }
+  .input-weather input {
+    padding: 8px;
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    font-size: 16px;
+  }
+  .input-weather button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 40px;
+    background-color: #ff9800;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .input-weather button:hover {
+    background-color: #e68900;
+  }
+
+  
