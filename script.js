@@ -6,7 +6,7 @@
     }
   
   const apiKey = "b9b26ea5ec0c468492044204251407";
-  const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
 
 
   fetch(url)
